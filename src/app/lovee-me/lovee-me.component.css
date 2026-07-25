@@ -1,0 +1,15 @@
+:host {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.main-card {
+  box-shadow: 0 30px 60px -15px rgba(0, 0, 0, 0.1);
+}
+
+.yes-btn, .no-btn {
+  transform-origin: center;
+  will-change: transform, box-shadow;
+  white-space: nowrap;
+}
