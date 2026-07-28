@@ -24,21 +24,28 @@
       "please.gif"
     ]
   },
-  {
-    "id": "customer2",
-    "initialText": "ကျွန်တော့်ကို စိတ်ကောက်နေတာလားခင်ဗျာ? 🥺",
-    "successText": "ဟေးးး ပျော်လိုက်တာ! ❤️",
-    "initialGif": "cat-cry.gif",
-    "successGif": "cat-dance.gif",
+ {
+    "id": "002",
+    "initialText": "စိတ်ဆိုး​နေတုန်းလား? 💔",
+    "successText": "စိတ်ဆိုး​ပြေပြီတဲ့ကွ ​ရေး❤️",
+    "initialGif": "bubu.gif",
+    "successGif": "yay.gif",
     "sadTexts": [
-      "မကောက်ပါနဲ့တော့နော်... 😭",
-      "နောက်တစ်ခါ မလုပ်တော့ပါဘူးဗျာ... 💔",
-      "အနားမှာပဲ နေပေးပါနော်... 🙏"
+      "ပစ်ထားတာအမိူက်​လေးကျ​နေတာပဲ🥺",
+      "မဆိုးပါနဲ့​တော့က​လေးရယ်... 💔",
+      "​တောင်းပန်ပါတယ်...😭",
+      "ကိုကို့ကိုမချစ်​တော့ဘူးလား..... 💔",
+      "ခွင့်လွှတ်​ပေးပါ​တော့ကွာာာ🥺",
+      "Just Say No Please🥺..."
+      
     ],
     "gifs": [
-      "cat-cry.gif",
-      "cat-sad.gif",
-      "cat-beg.gif"
+      "bubu.gif",
+      "b3.webp",
+      "b1.webp",
+      "b4.gif",
+      "b5.gif",
+      "please.gif"
     ]
   }
 ]
