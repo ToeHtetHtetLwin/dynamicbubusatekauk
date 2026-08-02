@@ -69,5 +69,28 @@
       "b5.gif",
       "please.gif"
     ]
+  },
+  {
+    "id": "004",
+    "initialText": "Did I do something to upset you, sweetheart? 💔",
+    "successText": "Yay!!!!!!the anger is gone!Come here, I want to hold you tigh🥺",
+    "initialGif": "bubu.gif",
+    "successGif": "yay.gif",
+    "sadTexts": [
+      "Let me know what's wrong🥺",
+      "I miss you so much,Please stop being upset with me☹️",
+      "I'm sorry for whatever I did wrong. Please forgive me😭",
+      "Don't you want to give me a little kiss?💔",
+      "Please forgive me🥺",
+      "Just Say No Please🥺..."
+    ],
+    "gifs": [
+      "bubu.gif",
+      "b2.gif",
+      "b1.webp",
+      "ss.gif",
+      "b5.gif",
+      "please.gif"
+    ]
   }
 ]
