@@ -117,5 +117,29 @@
       "cry.gif",
       "please.gif"
     ]
+  },
+  {
+    "id": "006",
+    "initialText": "စိတ်ဆိုးနေတုန်းလား အရူး🥹",
+    "successText": "စိတ်ဆိုး​ပြေပြီတဲ့ကွ ​ရေး...mwah mwah❤️",
+    "initialGif": "bubu.gif",
+    "successGif": "yay.gif",
+    "sadTexts": [
+      "အရူးကအမကိုပစ်ထားတာအမှိုက်လေးလိုပဲ🥺",
+      "စိတ်မဆိုးပါနဲ့​တော့အရူး🙈",
+      "​တောင်းပန်ပါတယ်...😭",
+      "မချစ်​တော့ဘူးလား..... 💔",
+      "ခွင့်လွှတ်​ပေးပါ​တော့ကွာာာ🥺",
+      "Just Say No Please🥺..."
+    ],
+    "gifs": [
+      "bubu.gif",
+      "b2.gif",
+      "b1.webp",
+      "ss.gif",
+      "b5.gif",
+      "cry.gif",
+      "please.gif"
+    ]
   }
 ]
