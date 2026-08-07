@@ -46,7 +46,6 @@ export class LoveeMeComponent implements OnInit, AfterViewInit {
   // JSON ဖိုင်ထဲက သက်ဆိုင်ရာ customer data ကို ဆွဲယူတဲ့ function
   loadCustomerData(): void {
     this.route.queryParams.subscribe(params => {
-      // URL မှာ id မပါရင် customer1 ကို default သတ်မှတ်ပါတယ်
       const customerId = params['id'] || 'customer1';
       
       this.http.get<any[]>('/customers.json').subscribe({
@@ -101,8 +100,18 @@ export class LoveeMeComponent implements OnInit, AfterViewInit {
   onYesAction(event: any): void {
     if (this.isAccepted || this.gifs.length === 0) return;
 
-    // NO Button ကို ပိုကြီးလာအောင် လုပ်မယ်
-    this.noScale += 0.3;
+    // ဖုန်း (Mobile) ဟုတ်မဟုတ် စစ်ဆေးခြင်း
+    const isMobile = window.innerWidth < 768;
+
+    if (isMobile) {
+      // ဖုန်းမှာဆိုရင် NO Button ကို နှိပ်လိုက်/ထိလိုက်တာနဲ့ ပိုပိုသေးသွားအောင် လုပ်မည်
+      // အရမ်းသေးမသွားအောင် 0.4 ထက် မသေးစေရန် Limit ထားထားပါတယ်
+      this.noScale = Math.max(0.4, this.noScale - 0.15);
+    } else {
+      // ကွန်ပျူတာ (Desktop) မှာဆိုရင် မူလအတိုင်း ပိုကြီးလာအောင် လုပ်မည်
+      this.noScale += 0.3;
+    }
+
     gsap.to('.no-btn', {
       scale: this.noScale,
       duration: 0.3,
