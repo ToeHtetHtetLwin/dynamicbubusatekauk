@@ -141,5 +141,29 @@
       "cry.gif",
       "please.gif"
     ]
+  },
+  {
+    "id": "007",
+    "initialText": "ဟိတ်စိတ်ဆိုးနေတာပေါ့လေ",
+    "successText": "ပြုံးသွားပြီမလားအဟမ်း❤️",
+    "initialGif": "crysticker.webp",
+    "successGif": "yay.gif",
+    "sadTexts": [
+      "ပြစ်ထားပါနဲ့ဗျာအချစ်ကလေးရယ်🥺",
+      "စိတ်မဆိုးပါနဲ့တော့ချစ်သူရယ်နော်နော်😭",
+      "မောင်ပဲတောင်းပန်ပါတယ်ဗျာ...😭",
+      "ခွင့်လွတ်ပေးမယ်မလားဟင်..... 💔",
+      "စိတ်ဆိုးပြေရမယ်နော်ဟိဟိ🥺",
+      "Just Say No Please🥺..."
+    ],
+    "gifs": [
+      "cute.webp",
+      "b2.gif",
+      "b1.webp",
+      "ss.gif",
+      "b5.gif",
+      "cry.gif",
+      "please.gif"
+    ]
   }
 ]
