@@ -16,19 +16,24 @@ import * as THREE from 'three';
 export class LoveeMeComponent implements OnInit, AfterViewInit {
   @ViewChild('threeCanvas') canvasRef!: ElementRef<HTMLCanvasElement>;
 
-  // JSON ကနေ လက်ခံမယ့် Variables များ
+  // JSON Variables
   gifs: string[] = [];
   sadTexts: string[] = [];
   successText: string = '';
   successGif: string = '';
 
-  currentGifIndex = 0;
   currentGif = '';
   currentText = 'Loading...';
+  
+  currentGifIndex = 0;
   sadTextIndex = 0;
 
   noScale = 1; 
+  clickCount = 0; 
   isAccepted = false; 
+
+  // NO Button ကို ပြမပြ ထိန်းချုပ်မည့် Variable
+  showNoButton = true;
 
   private scene!: THREE.Scene;
   private camera!: THREE.PerspectiveCamera;
@@ -43,7 +48,6 @@ export class LoveeMeComponent implements OnInit, AfterViewInit {
     this.loadCustomerData();
   }
 
-  // JSON ဖိုင်ထဲက သက်ဆိုင်ရာ customer data ကို ဆွဲယူတဲ့ function
   loadCustomerData(): void {
     this.route.queryParams.subscribe(params => {
       const customerId = params['id'] || 'customer1';
@@ -53,8 +57,8 @@ export class LoveeMeComponent implements OnInit, AfterViewInit {
           const customer = data.find(c => c.id === customerId);
           
           if (customer) {
-            this.gifs = customer.gifs;
-            this.sadTexts = customer.sadTexts;
+            this.gifs = customer.gifs || [];
+            this.sadTexts = customer.sadTexts || [];
             this.currentText = customer.initialText;
             this.currentGif = customer.initialGif;
             this.successText = customer.successText;
@@ -97,34 +101,35 @@ export class LoveeMeComponent implements OnInit, AfterViewInit {
     this.renderer.render(this.scene, this.camera);
   }
 
+  // "ဆိုးတယ်" (YES) Button ကို နှိပ်သည့်အခါ
   onYesAction(event: any): void {
-    if (this.isAccepted || this.gifs.length === 0) return;
+    if (this.isAccepted || this.sadTexts.length === 0) return;
 
-    // ဖုန်း (Mobile) ဟုတ်မဟုတ် စစ်ဆေးခြင်း
-    const isMobile = window.innerWidth < 768;
+    this.clickCount++;
+    const maxStages = Math.max(this.gifs.length, this.sadTexts.length);
 
-    if (isMobile) {
-      // ဖုန်းမှာဆိုရင် NO Button ကို နှိပ်လိုက်/ထိလိုက်တာနဲ့ ပိုပိုသေးသွားအောင် လုပ်မည်
-      // အရမ်းသေးမသွားအောင် 0.4 ထက် မသေးစေရန် Limit ထားထားပါတယ်
-      this.noScale = Math.max(0.4, this.noScale - 0.15);
+    // "Just Say No Please" အဆင့်ကျော်လွန်မှသာ NO ခလုတ် ပျောက်ပါမည် (clickCount > maxStages)
+    if (this.clickCount > maxStages) {
+      this.showNoButton = false;
     } else {
-      // ကွန်ပျူတာ (Desktop) မှာဆိုရင် မူလအတိုင်း ပိုကြီးလာအောင် လုပ်မည်
-      this.noScale += 0.3;
+      // မကျော်လွန်သေးသမျှ NO ခလုတ် ပိုကြီးလာပါမည်
+      this.noScale += 0.35;
+      gsap.to('.no-btn', {
+        scale: this.noScale,
+        duration: 0.3,
+        ease: 'back.out(1.5)'
+      });
     }
 
-    gsap.to('.no-btn', {
-      scale: this.noScale,
-      duration: 0.3,
-      ease: 'back.out(1.5)'
-    });
+    // Sad Text အစဉ်လိုက် ပြောင်းလဲခြင်း (အဆုံးရောက်လျှင် ရပ်တန့်မည်)
+    if (this.clickCount <= this.sadTexts.length) {
+      this.currentText = this.sadTexts[this.clickCount - 1];
+    }
 
-    // Sad GIF ပြောင်းလဲခြင်း
-    this.currentGifIndex = (this.currentGifIndex + 1) % this.gifs.length;
-    this.currentGif = this.gifs[this.currentGifIndex];
-
-    // Text ပြောင်းလဲခြင်း
-    this.currentText = this.sadTexts[this.sadTextIndex];
-    this.sadTextIndex = (this.sadTextIndex + 1) % this.sadTexts.length;
+    // Sad GIF အစဉ်လိုက် ပြောင်းလဲခြင်း (အဆုံးရောက်လျှင် ရပ်တန့်မည်)
+    if (this.clickCount <= this.gifs.length) {
+      this.currentGif = this.gifs[this.clickCount - 1];
+    }
 
     gsap.fromTo('.header-text',
       { scale: 0.9, opacity: 0.5 },
@@ -135,8 +140,9 @@ export class LoveeMeComponent implements OnInit, AfterViewInit {
     this.spawnEmojisAcrossScreen('💔', 40, event);
   }
 
+  // "မဆိုးဘူး" (NO) Button ကို နှိပ်လိုက်သည့်အခါ (Success State ရောက်မည်)
   onNoClick(event: any): void {
-    if (this.gifs.length === 0) return;
+    if (this.sadTexts.length === 0) return;
 
     this.isAccepted = true;
     this.currentGif = this.successGif;
