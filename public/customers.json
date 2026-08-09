@@ -165,5 +165,29 @@
       "please.gif",
       "cry.gif"
     ]
+  },
+  {
+    "id": "008",
+    "initialText": "စိတ်ဆိုး​နေတုန်းလား? 💔",
+    "successText": "စိတ်ဆိုး​ပြေပြီတဲ့ကွ ​ရေး❤️",
+    "initialGif": "bubu.gif",
+    "successGif": "yay.gif",
+    "sadTexts": [
+      "ပစ်ထားတာအမိူက်​လေးကျ​နေတာပဲ🥺",
+      "ခ​လေး​လေးကလွဲပြီးစိတ်ထဲမရှိဘူး​လေ... 💔",
+      "​အိပ်မက်ထဲမှာ​တောင်ခ​လေး​လေးပဲ...😭",
+      "မချစ်​တော့ဘူးလား..... 💔",
+      "ခွင့်လွှတ်​ပေးပါ​တော့ကွာာာ🥺",
+      "Just Say No Please🥺..."
+    ],
+    "gifs": [
+      "cute.webp",
+      "b2.gif",
+      "b1.webp",
+      "ss.gif",
+      "pleasecute.gif",
+      "please.gif",
+      "cry.gif"
+    ]
   }
 ]
