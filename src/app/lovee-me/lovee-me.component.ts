@@ -1,6 +1,6 @@
 import { Component, ElementRef, OnInit, ViewChild, AfterViewInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { Button } from 'primeng/button';
 import { gsap } from 'gsap';
@@ -41,6 +41,7 @@ export class LoveeMeComponent implements OnInit, AfterViewInit {
 
   constructor(
     private route: ActivatedRoute,
+    private router: Router,
     private http: HttpClient
   ) {}
 
@@ -50,8 +51,14 @@ export class LoveeMeComponent implements OnInit, AfterViewInit {
 
   loadCustomerData(): void {
     this.route.queryParams.subscribe(params => {
-      const customerId = params['id'] || 'customer1';
+      const customerId = params['id'];
       
+      // Query Parameter မှာ id ပါမလာလျှင် /not-found သို့ တန်းသွားမည်
+      if (!customerId) {
+        this.router.navigate(['/not-found']);
+        return;
+      }
+
       this.http.get<any[]>('/customers.json').subscribe({
         next: (data) => {
           const customer = data.find(c => c.id === customerId);
@@ -64,12 +71,13 @@ export class LoveeMeComponent implements OnInit, AfterViewInit {
             this.successText = customer.successText;
             this.successGif = customer.successGif;
           } else {
-            this.currentText = 'Customer မတွေ့ရှိပါ 💔';
+            // ID ပါလာသော်လည်း JSON ထဲတွင် ရှာမတွေ့ပါက /not-found သို့ သွားမည်
+            this.router.navigate(['/not-found']);
           }
         },
         error: (err) => {
           console.error('JSON ဖတ်ရတာ အဆင်မပြေပါ - ', err);
-          this.currentText = 'Data မလုပ်ဆောင်နိုင်ပါ 💔';
+          this.router.navigate(['/not-found']);
         }
       });
     });
