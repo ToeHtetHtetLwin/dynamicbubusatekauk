@@ -1,0 +1,399 @@
+[
+  {
+    "id": "001",
+    "initialText": "စိတ်ဆိုး​နေတုန်းလား? 💔",
+    "successText": "စိတ်ဆိုး​ပြေပြီတဲ့ကွ ​ရေး❤️",
+    "initialGif": "bubu.gif",
+    "successGif": "yay.gif",
+    "sadTexts": [
+      "အစ်ကို့ လူကြီးလေး... စိတ်ဆိုးပါနဲ့တော့🥺",
+      "လူကြီးလေးရယ်... စိတ်လေးနည်းနည်းလျော့ပါနော်... 💔",
+      "အစ်ကို့ကို စကားလေးပြောပါဦး...😭",
+      "စိတ်မဆိုးပါနဲ့တော့ လူကြီးလေးရယ်...... 💔",
+      "အစ်ကိုတောင်းပန်ပါတယ် 🥺",
+      "စိတ်ကောက်လေးပြေတော့နော် လိမ္မာတယ်...",
+      "အရင်လိုလေးပြန်နေရအောင်နော်...🥺"
+    ],
+    "gifs": [
+      "bubu.gif",
+      "b3.webp",
+      "b1.webp",
+      "b4.gif",
+      "b5.gif",
+      "sad.gif",
+      "please.gif"
+    ]
+  },
+  {
+    "id": "002",
+    "initialText": "စိတ်ဆိုး​နေတုန်းလား? 💔",
+    "successText": "စိတ်ဆိုး​ပြေပြီတဲ့ကွ ​ရေး❤️",
+    "initialGif": "bubu.gif",
+    "successGif": "yay.gif",
+    "sadTexts": [
+      "ပစ်ထားတာအမိူက်​လေးကျ​နေတာပဲ🥺",
+      "မဆိုးပါနဲ့​တော့က​လေးရယ်... 💔",
+      "​တောင်းပန်ပါတယ်...😭",
+      "ကိုကို့ကိုမချစ်​တော့ဘူးလား..... 💔",
+      "ခွင့်လွှတ်​ပေးပါ​တော့ကွာာာ🥺",
+      "Just Say No Please🥺..."
+    ],
+    "gifs": [
+      "bubu.gif",
+      "b3.webp",
+      "b1.webp",
+      "ss.gif",
+      "b5.gif",
+      "please.gif"
+    ]
+  },
+  {
+    "id": "003",
+    "initialText": "စိတ်ဆိုး​နေတုန်းလား? 💔",
+    "successText": "စိတ်ဆိုး​ပြေပြီတဲ့ကွ ​ရေး❤️",
+    "initialGif": "bubu.gif",
+    "successGif": "yay.gif",
+    "sadTexts": [
+      "ပစ်ထားတာအမိူက်​လေးကျ​နေတာပဲ🥺",
+      "မဆိုးပါနဲ့​တော့... 💔",
+      "​တောင်းပန်ပါတယ်...😭",
+      "မချစ်​တော့ဘူးလား..... 💔",
+      "ခွင့်လွှတ်​ပေးပါ​တော့ကွာာာ🥺",
+      "Just Say No Please🥺..."
+    ],
+    "gifs": [
+      "b3.webp",
+      "b2.gif",
+      "b1.webp",
+      "ss.gif",
+      "b5.gif",
+      "please.gif"
+    ]
+  },
+  {
+    "id": "004",
+    "initialText": "Did I do something to upset you, sweetheart? 💔",
+    "successText": "Yay!!!!!!the anger is gone!Come here, I want to hold you tight🥺",
+    "initialGif": "bubu.gif",
+    "successGif": "yay.gif",
+    "sadTexts": [
+      "Let me know what's wrong🥺",
+      "I miss you so much,Please stop being upset with me☹️",
+      "I'm sorry for whatever I did wrong. Please forgive me😭",
+      "Don't you want to give me a little kiss?💔",
+      "Please forgive me🥺",
+      "Just Say No Please🥺..."
+    ],
+    "gifs": [
+      "bubu.gif",
+      "b2.gif",
+      "b1.webp",
+      "ss.gif",
+      "b5.gif",
+      "please.gif"
+    ]
+  },
+  {
+    "id": "005",
+    "initialText": "ရည်းစား​လေးစိတ်ဆိုး​နေတုန်းလား 💔",
+    "successText": "စိတ်ဆိုး​ပြေပြီတဲ့ကွ ​ရေး...mwah mwah❤️",
+    "initialGif": "bubu.gif",
+    "successGif": "yay.gif",
+    "sadTexts": [
+      "​တောင်းပန်ပါတယ်🥺",
+      "​သေမတတ်ခံစား​နေရပါပြီကွာ☹️",
+      "ကိုကို့မှာအချစ်ဆိုတာတစ်​ယောက်ပဲရှိတာ​လေ😭",
+      "စကားမ​ပြောရတဲ့တစ်မိနစ်ကတစ်ဘဝလိုပဲ💔",
+      " ကိုကို့ကိုမချစ်​တော့ဘူးလား..... 💔",
+      "စိတ်ဆိုး​လေး​ပြေပြီး ပိုပိုချစ်ကြရ​အောင်​နော်🥺...",
+      "Just Say No Please🥺..."
+    ],
+    "gifs": [
+      "bubu.gif",
+      "b2.gif",
+      "b1.webp",
+      "ss.gif",
+      "b5.gif",
+      "cry.gif",
+      "please.gif"
+    ]
+  },
+  {
+    "id": "006",
+    "initialText": "စိတ်ဆိုးနေတုန်းလား အရူး🥹",
+    "successText": "စိတ်ဆိုး​ပြေပြီတဲ့ကွ ​ရေး...mwah mwah❤️",
+    "initialGif": "bubu.gif",
+    "successGif": "yay.gif",
+    "sadTexts": [
+      "အရူးကအမကိုပစ်ထားတာအမှိုက်လေးလိုပဲ🥺",
+      "စိတ်မဆိုးပါနဲ့​တော့အရူး🙈",
+      "​တောင်းပန်ပါတယ်...😭",
+      "မချစ်​တော့ဘူးလား..... 💔",
+      "ခွင့်လွှတ်​ပေးပါ​တော့ကွာာာ🥺",
+      "Just Say No Please🥺..."
+    ],
+    "gifs": [
+      "bubu.gif",
+      "b2.gif",
+      "b1.webp",
+      "ss.gif",
+      "b5.gif",
+      "cry.gif",
+      "please.gif"
+    ]
+  },
+  {
+    "id": "007",
+    "initialText": "ဟိတ်စိတ်ဆိုးနေတာပေါ့လေ",
+    "successText": "yay...ပြုံးသွားပြီမလားအဟမ်း❤️",
+    "initialGif": "crysticker.webp",
+    "successGif": "yy.gif",
+    "sadTexts": [
+      "ပြစ်ထားပါနဲ့ဗျာအချစ်ကလေးရယ်🥺",
+      "စိတ်မဆိုးပါနဲ့တော့ချစ်သူရယ်နော်နော်😭",
+      "မောင်ပဲတောင်းပန်ပါတယ်ဗျာ...😭",
+      "ခွင့်လွတ်ပေးမယ်မလားဟင်..... 💔",
+      "စိတ်ဆိုးပြေရမယ်နော်ဟိဟိ🥺",
+      "Just Say No Please🥺..."
+    ],
+    "gifs": [
+      "cute.webp",
+      "b2.gif",
+      "b1.webp",
+      "ss.gif",
+      "pleasecute.gif",
+      "please.gif",
+      "cry.gif"
+    ]
+  },
+  {
+    "id": "008",
+    "initialText": "စိတ်ဆိုး​နေတုန်းလား? 💔",
+    "successText": "စိတ်ဆိုး​ပြေပြီတဲ့ကွ ​ရေး❤️",
+    "initialGif": "bubu.gif",
+    "successGif": "yay.gif",
+    "sadTexts": [
+      "ပစ်ထားတာအမိူက်​လေးကျ​နေတာပဲ🥺",
+      "ခ​လေး​လေးကလွဲပြီးစိတ်ထဲမရှိဘူး​လေ... 💔",
+      "​အိပ်မက်ထဲမှာ​တောင်ခ​လေး​လေးပဲ...😭",
+      "မချစ်​တော့ဘူးလား..... 💔",
+      "ခွင့်လွှတ်​ပေးပါ​တော့ကွာာာ🥺",
+      "Just Say No Please🥺..."
+    ],
+    "gifs": [
+      "b3.webp",
+      "b2.gif",
+      "b1.webp",
+      "ss.gif",
+      "pleasecute.gif",
+      "please.gif",
+      "cry.gif"
+    ]
+  },
+  {
+    "id": "009",
+    "initialText": "စိတ်ဆိုး​နေတုန်းလား? 💔",
+    "successText": "စိတ်ဆိုး​ပြေပြီတဲ့ကွ ​ရေး❤️",
+    "initialGif": "bubu.gif",
+    "successGif": "yay.gif",
+    "sadTexts": [
+      "အသဲလေးကမောင့်မရှိမဖြစ်လေးအသဲသိလား🥺",
+      "စိတ်မဆိုးပါနဲ့​တော့နော်🥺... ",
+      "​တောင်းပန်ပါတယ်အသဲ...😭",
+      "မောင့်ကိုမသနားဘူးလား☹️",
+      "ခွင့်လွှတ်​ပေးပါ​နောိ🥺",
+      "Just Say No Please🥺..."
+    ],
+    "gifs": [
+      "b3.webp",
+      "b2.gif",
+      "b1.webp",
+      "ss.gif",
+      "b5.gif",
+      "please.gif"
+    ]
+  },
+  {
+    "id": "10",
+    "initialText": "​မောင်​မောင်​ရေ စိတ်ဆိုး​နေတုန်းလား? 💔",
+    "successText": "စိတ်ဆိုး​ပြေပြီတဲ့ကွ ​ရေး❤️​",
+    "initialGif": "bubu.gif",
+    "successGif": "yay.gif",
+    "sadTexts": [
+      "ပစ်ထားတာအမိူက်​လေးကျ​နေတာပဲ🥺",
+      "မဆိုးပါနဲ့​တော့... 💔",
+      "​တောင်းပန်ပါတယ်...😭",
+      "မချစ်​တော့ဘူးလား..... 💔",
+      "ခွင့်လွှတ်​ပေးပါ​တော့ကွာာာ🥺",
+      "Just Say No Please🥺..."
+    ],
+    "gifs": [
+      "b3.webp",
+      "cute.webp",
+      "b1.webp",
+      "ss.gif",
+      "b5.gif",
+      "please.gif"
+    ]
+  },
+  {
+    "id": "11",
+    "initialText": "စိတ်မဆိုးပါနဲ့အကို💔",
+    "successText": "ဒါဆိုစိတ်ဆိုးပြေပြီပေါ့❤️​",
+    "initialGif": "bubu.gif",
+    "successGif": "yay.gif",
+    "sadTexts": [
+      "တဂယ်မရည်ရွယ်ခဲ့လို တောင်းပန်ပါတယ်အကို🥺",
+      "စိတ်မဆိုးပါနဲ့တော့အကိုရယ်... 💔",
+      "အနူးညွတ်တောင်းပန်ပါတယ်...😭",
+      "စိတ်အနှောက်ယှက်ပေးမိပြီ..... 💔",
+      "နောက်ဆုံးတစ်ခေါက်လိုသဘောထားပေးပါနော်အကို🥺",
+      "Just Say No Please🥺..."
+    ],
+    "gifs": [
+      "b3.webp",
+      "cute.webp",
+      "b1.webp",
+      "ss.gif",
+      "b5.gif",
+      "please.gif"
+    ]
+  },
+  {
+    "id": "12",
+    "initialText": "​စိတ်ဆိုး​နေတုန်းလား? 💔",
+    "successText": "စိတ်ဆိုး​ပြေပြီတဲ့ကွ ​ရေး❤️​",
+    "initialGif": "b5.gif",
+    "successGif": "yay.gif",
+    "sadTexts": [
+      "ပစ်ထားတာအမိူက်​လေးကျ​နေတာပဲ🥺",
+      "မဆိုးပါနဲ့​တော့... 💔",
+      "​တောင်းပန်ပါတယ်...😭",
+      "မချစ်ဘူးလားလို့ ဟင့်..... 💔",
+      "ခွင့်လွှတ်​ပေးပါ​တော့​နော်🥺",
+      "Just Say No Please🥺..."
+    ],
+    "gifs": [
+      "s1.webp",
+      "s2.gif",
+      "s3.webp",
+      "s4.webp",
+      "b1.webp",
+      "pl.gif"
+    ]
+  },
+  {
+    "id": "13",
+    "initialText": "စိတ်တိုမပြေသေးဘူးလားဟင်💔",
+    "successText": "စိတ်ဆိုး​ပြေပြီတဲ့ကွ ​ရေး❤️​",
+    "initialGif": "b5.gif",
+    "successGif": "yay.gif",
+    "sadTexts": [
+      "ကိုကိုတောင်းပန်ပါတယ်ဗျာ🥺",
+      "စိတ်ပြေပါတော့သည်းသက်ရယ်💔",
+      "​တောင်းပန်ပါတယ်...😭",
+      "ခွင့်လွှတ်ပေးပါတော့ဗျာ😭",
+      "Just Say No Please🥺..."
+    ],
+    "gifs": [
+      "s1.webp",
+      "s2.gif",
+      "s3.webp",
+      "s4.webp",
+      "b1.webp",
+      "pl.gif"
+    ]
+  },
+  {
+    "id": "14",
+    "initialText": "ဆုဆုစိတ်ဆိုးနေတုန်းလား?🥺",
+    "successText": "စိတ်ဆိုး​ပြေပြီတဲ့ကွ ​ရေး❤️​",
+    "initialGif": "b5.gif",
+    "successGif": "yay.gif",
+    "sadTexts": [
+      "ပစ်ထားတာအမှိုက်ကလေးကျနေတာပဲကွာ🥺",
+      "စိတ်မဆိုးပါနဲ့တော့ဆုဆုရယ်🙏...",
+      "ခွင့်လွှတ်ပေးပါတော့နော်ဆုဆုလေး🥹",
+      "​တောင်းပန်ပါတယ်...😭",
+      "မချစ်​တော့ဘူးလား..... 💔",
+      "Just Say No Please🥺..."
+    ],
+    "gifs": [
+      "s1.webp",
+      "s2.gif",
+      "s3.webp",
+      "s4.webp",
+      "b1.webp",
+      "pl.gif"
+    ]
+  },
+  {
+    "id": "15",
+    "initialText": "သဲ စိတ်ဆိုးနေတုန်းလား?🥺",
+    "successText": "စိတ်ဆိုး​ပြေပြီတဲ့ကွ ​ရေး❤️​",
+    "initialGif": "b5.gif",
+    "successGif": "yay.gif",
+    "sadTexts": [
+      "ကိုကို့ကိုပစ်ထားတာအမိူက်​လေးကျလို့🥺",
+      "စိတ်မဆိုးပါနဲ့တော့သဲရယ်🙏...",
+      "ကိုကို့ကိုခွင့်လွှတ်ပေးပါတော့🥹",
+      "ကိုကို​တောင်းပန်ပါတယ်...😭",
+      "မချစ်​တော့ဘူးလားသဲရယ်..... 💔",
+      "Just Say No Please🥺..."
+    ],
+    "gifs": [
+      "s1.webp",
+      "s2.gif",
+      "s3.webp",
+      "s4.webp",
+      "b1.webp",
+      "pl.gif"
+    ]
+  },
+  {
+    "id": "16",
+    "initialText": "ကိုကို စိတ်ဆိုးနေတုန်းလား?🥺",
+    "successText": "စိတ်ဆိုး​ပြေပြီတဲ့ကွ ​ရေး❤️​",
+    "initialGif": "b5.gif",
+    "successGif": "yay.gif",
+    "sadTexts": [
+      "က​လေး​လေးကိုပစ်ထားတာအမိူက်​လေးကျလို့🥺",
+      "က​လေး​လေးကို​လျော့​ကောက်ပါ🙏",
+      "ကိုကိုတစ်ခါတစ်​လေကောက်​ရင်လန့်လို့🥹",
+      "​တောင်းပန်ပါတယ်...😭",
+      "မချစ်​တော့ဘူးလားက​လေး​လေးကို​💔",
+      "Just Say No Please🥺..."
+    ],
+    "gifs": [
+      "s1.webp",
+      "s2.gif",
+      "s3.webp",
+      "s4.webp",
+      "b1.webp",
+      "pl.gif"
+    ]
+  },
+   {
+    "id": "17",
+    "initialText": "စိတ်ဆိုးနေတုန်းလား?🥺",
+    "successText": "စိတ်ဆိုး​ပြေပြီတဲ့ကွ ​ရေး❤️​",
+    "initialGif": "b5.gif",
+    "successGif": "yay.gif",
+    "sadTexts": [
+      "ပစ်ထားတာအမိူက်​လေးကျလို့🥺",
+      "က​လေး​လေးကို​လျော့​ကောက်ပါ🙏",
+      "ကိုကိုတစ်ခါတစ်​လေကောက်​ရင်လန့်လို့🥹",
+      "​တောင်းပန်ပါတယ်...😭",
+      "မချစ်​တော့ဘူးလားက​လေး​လေးကို​💔",
+      "Just Say No Please🥺..."
+    ],
+    "gifs": [
+      "s1.webp",
+      "s2.gif",
+      "s3.webp",
+      "s4.webp",
+      "b1.webp",
+      "pl.gif"
+    ]
+  }
+]
