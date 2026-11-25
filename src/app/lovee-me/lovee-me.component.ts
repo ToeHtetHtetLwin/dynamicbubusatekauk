@@ -24,13 +24,13 @@ export class LoveeMeComponent implements OnInit, AfterViewInit {
 
   currentGif = '';
   currentText = 'Loading...';
-  
+
   currentGifIndex = 0;
   sadTextIndex = 0;
 
-  noScale = 1; 
-  clickCount = 0; 
-  isAccepted = false; 
+  noScale = 1;
+  clickCount = 0;
+  isAccepted = false;
 
   // NO Button ကို ပြမပြ ထိန်းချုပ်မည့် Variable
   showNoButton = true;
@@ -52,7 +52,7 @@ export class LoveeMeComponent implements OnInit, AfterViewInit {
   loadCustomerData(): void {
     this.route.queryParams.subscribe(params => {
       const customerId = params['id'];
-      
+
       // Query Parameter မှာ id ပါမလာလျှင် /not-found သို့ တန်းသွားမည်
       if (!customerId) {
         this.router.navigate(['/not-found']);
@@ -62,7 +62,7 @@ export class LoveeMeComponent implements OnInit, AfterViewInit {
       this.http.get<any[]>('/customers.json').subscribe({
         next: (data) => {
           const customer = data.find(c => c.id === customerId);
-          
+
           if (customer) {
             this.gifs = customer.gifs || [];
             this.sadTexts = customer.sadTexts || [];
@@ -116,12 +116,15 @@ export class LoveeMeComponent implements OnInit, AfterViewInit {
     this.clickCount++;
     const maxStages = Math.max(this.gifs.length, this.sadTexts.length);
 
-    // "Just Say No Please" အဆင့်ကျော်လွန်မှသာ NO ခလုတ် ပျောက်ပါမည် (clickCount > maxStages)
+    // Text တွေ အကုန်ပြပြီး နောက်ထပ်ဆက်နှိပ်မှသာ NO ခလုတ် ပျောက်ပါမည်
     if (this.clickCount > maxStages) {
       this.showNoButton = false;
     } else {
-      // မကျော်လွန်သေးသမျှ NO ခလုတ် ပိုကြီးလာပါမည်
-      this.noScale += 0.35;
+      // sadTexts အရေအတွက်အလိုက် အများဆုံး 2.0x လောက်အထိပဲ ဖြည်းဖြည်းကြီးလာစေရန်
+      const maxScale = 2.0;
+      const step = (maxScale - 1) / Math.max(maxStages, 1);
+      this.noScale = Math.min(1 + this.clickCount * step, maxScale);
+
       gsap.to('.no-btn', {
         scale: this.noScale,
         duration: 0.3,
