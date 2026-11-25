@@ -489,5 +489,59 @@
       "b5.gif",
       "please.gif"
     ]
+  },
+  {
+    "id": "21",
+    "initialText": "စိတ်ဆိုး​နေတုန်းလားမမ? 💔",
+    "successText": "စိတ်ဆိုး​ပြေပြီတဲ့ကွ ​ရေး❤️",
+    "initialGif": "pleasecute.gif",
+    "successGif": "yay.gif",
+    "sadTexts": [
+      "ပစ်ထားတာအမိူက်​လေးကျ​နေတာပဲ🥺",
+      "မဆိုးပါနဲ့​တော့ မမ ရယ်💔",
+      "​တောင်းပန်ပါတယ်...😭",
+      "မချစ်​တော့ဘူးလား..... 💔",
+      "ခွင့်လွှတ်​ပေးပါ​တော့နော်🥺",
+      "Just Say No Please🥺..."
+    ],
+    "gifs": [
+      "cute.webp",
+      "b2.gif",
+      "b1.webp",
+      "ss.gif",
+      "b5.gif",
+      "please.gif"
+    ]
+  },
+  {
+    "id": "22",
+    "name": "ymhtike",
+    "initialText": "စိတ်ဆိုး​နေတုန်းလားဟင်My Princess❤️? ",
+    "acceptedText": "ဒီလိုမှ​ပေါ့ ပိုချစ်ကြမယ်​နော် I love you❤️",
+    "yesButtonLabel": "No❤️",
+    "noButtonLabel": "Yes",
+    "gifs": [
+      "gif/pleasee.webp",
+      "gif/gif2.gif",
+      "gif/eat.gif",
+      "gif/crying.gif",
+      "gif/bupl.gif",
+      "gif/pl2.gif",
+      "gif/gif3.gif",
+      "gif/gif4.webp",
+      "gif/gif5.webp"
+    ],
+    "acceptedGif": "gif/bubu.gif",
+    "sadTexts": [
+      "မဆိုးပါနဲ့​တော့ My Princess🥺",
+      "စိတ်ဆိုး​ပြေရင်မုန့်၀ယ်​ကျွေးမှာ",
+      "​တစ်​ယောက်တည်းပဲရင်ထဲရှိတာ😭",
+      "ခွင့်လွှတ်ပါ​တော့​နော်My Princess​💔",
+      "​နောက်တစ်ခါစိတ်ဆိုး​အောင် မလုပ်​တော့ဘူး",
+      "သနားပါ​နော်",
+      "မရှိရင်မဖြစ်လို့",
+      "ငိုမှာနော်🥺",
+      "Just say Yes🥺"
+    ]
   }
 ]
