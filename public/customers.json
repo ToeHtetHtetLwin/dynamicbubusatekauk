@@ -515,23 +515,10 @@
   },
   {
     "id": "22",
-    "name": "ymhtike",
-    "initialText": "စိတ်ဆိုး​နေတုန်းလားဟင်My Princess❤️? ",
-    "acceptedText": "ဒီလိုမှ​ပေါ့ ပိုချစ်ကြမယ်​နော် I love you❤️",
-    "yesButtonLabel": "No❤️",
-    "noButtonLabel": "Yes",
-    "gifs": [
-      "gif/pleasee.webp",
-      "gif/gif2.gif",
-      "gif/eat.gif",
-      "gif/crying.gif",
-      "gif/bupl.gif",
-      "gif/pl2.gif",
-      "gif/gif3.gif",
-      "gif/gif4.webp",
-      "gif/gif5.webp"
-    ],
-    "acceptedGif": "gif/bubu.gif",
+    "initialText": "စိတ်ဆိုး​နေတုန်းလားဟင်My Princess?💔",
+    "successText": "ဒီလိုမှ​ပေါ့ ပိုချစ်ကြမယ်​နော် I love you❤️",
+    "initialGif": "gif/bubu.gif",
+    "successGif": "gif/love1.gif",
     "sadTexts": [
       "မဆိုးပါနဲ့​တော့ My Princess🥺",
       "စိတ်ဆိုး​ပြေရင်မုန့်၀ယ်​ကျွေးမှာ",
@@ -542,6 +529,17 @@
       "မရှိရင်မဖြစ်လို့",
       "ငိုမှာနော်🥺",
       "Just say Yes🥺"
+    ],
+    "gifs": [
+      "gif/pleasee.webp",
+      "gif/gif2.gif",
+      "gif/eat.gif",
+      "gif/crying.gif",
+      "gif/bupl.gif",
+      "gif/pl2.gif",
+      "gif/gif3.gif",
+      "gif/gif4.webp",
+      "gif/gif5.webp"
     ]
   }
 ]
