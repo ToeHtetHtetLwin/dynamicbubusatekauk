@@ -14,15 +14,15 @@
       {{ currentText }}
     </h1>
 
-    <!-- Buttons Wrapper -->
-    <div class="relative flex items-center justify-center gap-4 md:gap-8 w-full min-h-[160px] md:min-h-[190px] px-2 md:px-4 overflow-hidden rounded-2xl">
+    <!-- Buttons Wrapper (အစပိုင်းတွင် ခလုတ်နှစ်ခုလုံး size တူညီပြီး no-btn ကြီးလာလျှင် စာသားပေါ် မဖုံးအောင် ထိန်းထားသည်) -->
+    <div class="relative flex items-center justify-center gap-4 md:gap-8 w-full min-h-[180px] md:min-h-[220px] px-2 md:px-4 overflow-hidden rounded-2xl">
       
       <!-- YES Button (ဆိုးတယ်) -->
       <p-button 
         *ngIf="!isAccepted"
         (onClick)="onYesAction($event)"
         severity="success"
-        styleClass="yes-btn px-6 py-3 md:px-10 md:py-5 text-lg md:text-2xl font-bold rounded-full shadow-xl shadow-emerald-200/60 transform active:scale-95 transition-all duration-200 z-10 min-w-[100px] md:min-w-[150px] shrink-0"
+        styleClass="yes-btn px-6 py-3 md:px-10 md:py-5 text-lg md:text-2xl font-bold rounded-full shadow-xl shadow-emerald-200/60 transform active:scale-95 transition-all duration-200 z-30 min-w-[110px] md:min-w-[160px] shrink-0"
         label="ဆိုးတယ်">
       </p-button>
 
@@ -31,7 +31,7 @@
         *ngIf="!isAccepted && showNoButton"
         (onClick)="onNoClick($event)"
         severity="danger"
-        styleClass="no-btn px-6 py-3 md:px-10 md:py-5 text-lg md:text-2xl font-bold rounded-full shadow-xl shadow-rose-200/60 transform active:scale-95 transition-all duration-200 z-20 min-w-[100px] md:min-w-[150px] shrink-0"
+        styleClass="no-btn px-6 py-3 md:px-10 md:py-5 text-lg md:text-2xl font-bold rounded-full shadow-xl shadow-rose-200/60 transform active:scale-95 transition-all duration-200 z-20 min-w-[110px] md:min-w-[160px] shrink-0"
         label="မဆိုးဘူး">
       </p-button>
 

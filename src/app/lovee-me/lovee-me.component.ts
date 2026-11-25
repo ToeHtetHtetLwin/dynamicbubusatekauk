@@ -120,13 +120,14 @@ export class LoveeMeComponent implements OnInit, AfterViewInit {
     if (this.clickCount > maxStages) {
       this.showNoButton = false;
     } else {
-      // sadTexts အရေအတွက်အလိုက် အများဆုံး 2.0x လောက်အထိပဲ ဖြည်းဖြည်းကြီးလာစေရန်
-      const maxScale = 2.0;
+      // နှိပ်တိုင်း ပိုပိုကြီးလာစေရန် (အစပိုင်း 1.0 မှ စပြီး အများဆုံး 2.7x အထိ)
+      const maxScale = 2.7;
       const step = (maxScale - 1) / Math.max(maxStages, 1);
       this.noScale = Math.min(1 + this.clickCount * step, maxScale);
 
       gsap.to('.no-btn', {
         scale: this.noScale,
+        transformOrigin: 'center center',
         duration: 0.3,
         ease: 'back.out(1.5)'
       });
