@@ -542,5 +542,36 @@
       "gif/gif5.webp",
       "gif/pl2.gif"
     ]
+  },
+  {
+    "id": "23",
+    "yesButtonLabel": "Yes",
+    "noButtonLabel": "NO",
+    "initialText": "စိတ်ဆိုး​နေတုန်းလားဟင် ကိုကို?💔",
+    "successText": "ဒီလိုမှ​ပေါ့ ပိုချစ်ကြမယ်​နော် I love you❤️",
+    "initialGif": "gif/pleasee.webp",
+    "successGif": "gif/love1.gif",
+    "sadTexts": [
+      "မဆိုးပါနဲ့​တော့🥺",
+      "စိတ်ဆိုး​ပြေရင်မုန့်၀ယ်​ကျွေးမှာ",
+      "​ကိုကိုတစ်​ယောက်တည်းပဲရင်ထဲရှိတာ😭",
+      "ခွင့်လွှတ်ပါ​တော့​နော်ကိုကို💔",
+      "​နောက်တစ်ခါစိတ်ဆိုး​အောင် မလုပ်​တော့ဘူး",
+      "သနားပါ​နော်",
+      "မရှိရင်မဖြစ်လို့",
+      "ငိုမှာနော်🥺",
+      "Just say no🥺"
+    ],
+    "gifs": [
+      "gif/gif2.gif",
+      "gif/eat.gif",
+      "gif/crying.gif",
+      "gif/bupl.gif",
+      "gif/pl2.gif",
+      "gif/gif3.gif",
+      "gif/gif4.webp",
+      "gif/gif5.webp",
+      "gif/pl2.gif"
+    ]
   }
 ]
